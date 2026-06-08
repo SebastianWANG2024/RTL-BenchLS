@@ -103,16 +103,7 @@ def my_verify(golden_rtl, revised_rtl, top_module, *, design_type, extra_files) 
 
 The framework calls them, captures pass/fail, and writes results in the same JSONL schema as the shipped `results/`. See [`tasks/README.md`](tasks/README.md) for the full pattern.
 
-## Citation
 
-```bibtex
-@inproceedings{rtlbenchls2026,
-  title     = {RTL-BenchLS: A Large-Scale Benchmark for LLM-Based RTL Reasoning and Generation},
-  author    = {Anonymous},
-  booktitle = {ICCAD},
-  year      = {2026}
-}
-```
 
 ## License
 
